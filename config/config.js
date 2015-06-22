@@ -10,7 +10,7 @@ module.exports =
         app: {
           name: 'JumpersUp'
         },
-        port: 3000
+        port: 5001
       },
       development: {
         db:"mongodb://heroku_v6m3wl9c:350punonkng0u7spd2l46grbvm@ds041140.mongolab.com:41140/heroku_v6m3wl9c",
@@ -20,7 +20,7 @@ module.exports =
         app: {
           name: 'JumpersUp Dev'
         },
-        port: 80
+        port: 5000
       },
       test: {
         db: 'mongodb://localhost/JumpersUp_test',
@@ -29,6 +29,6 @@ module.exports =
         app: {
           name: 'JumpersUp Test'
         },
-        port: 3002
+        port: 5002
       }
     };
