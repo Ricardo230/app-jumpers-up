@@ -13,7 +13,7 @@ module.exports =
         port: 3000
       },
       development: {
-        db:"mongodb://heroku_v6m3wl9c:350punonkng0u7spd2l46grbvm@ds041140.mongolab.com:41140/heroku_v6m3wl9c"
+        db:"mongodb://heroku_v6m3wl9c:350punonkng0u7spd2l46grbvm@ds041140.mongolab.com:41140/heroku_v6m3wl9c",
         //db: "mongodb://localhost/JumpersUp_dev",
 				url: 'https://app-jumpers-up.herokuapp.com/',
         root: rootPath,
