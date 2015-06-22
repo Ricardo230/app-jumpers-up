@@ -4,29 +4,29 @@ var path = require("path"),
 module.exports = 
     {
 			production: {
-        db: 'mongodb://localhost/mean_db',
+        db: 'mongodb://localhost/JumpersUp_db',
 				url: 'http://localhost:3000',
         root: rootPath,
         app: {
-          name: 'MEAN'
+          name: 'JumpersUp'
         },
         port: 3000
       },
       development: {
-        db: "mongodb://localhost/mean_dev",
+        db: "mongodb://localhost/JumpersUp_dev",
 				url: 'http://localhost:3001',
         root: rootPath,
         app: {
-          name: 'MEAN Dev'
+          name: 'JumpersUp Dev'
         },
         port: 3001
       },
       test: {
-        db: 'mongodb://localhost/mean_test',
+        db: 'mongodb://localhost/JumpersUp_test',
 				url: 'http://localhost:3002',
         root: rootPath,
         app: {
-          name: 'MEAN Test'
+          name: 'JumpersUp Test'
         },
         port: 3002
       }

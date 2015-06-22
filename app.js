@@ -45,7 +45,7 @@ app.use(passport.session());
 
 app.env = env;
 app.config = config;
-app.secret = "1234";
+app.secret = "$3cR3tK3Y-Jump3r5upp.";
 
 require('./config/express')(app);
 
