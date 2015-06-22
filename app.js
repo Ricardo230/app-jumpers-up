@@ -73,5 +73,5 @@ app.use(function(err, req, res, next){
 });
 
 server.listen(app.get('port'), function() {
-  console.log("Node server running on "+config.url + app.get('port'));
+  console.log("Node server running on "+config.url +":" + app.get('port'));
 });
