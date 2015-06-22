@@ -20,7 +20,7 @@ module.exports =
         app: {
           name: 'JumpersUp Dev'
         },
-        port: 5000
+        port: process.env.PORT || 5000
       },
       test: {
         db: 'mongodb://localhost/JumpersUp_test',
