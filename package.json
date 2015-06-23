@@ -1,5 +1,4 @@
 {
-  "repository": { "private": false },
   "name": "JumpersUpp",
   "main": "app.js",
   "scripts": {
